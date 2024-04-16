@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My "First" Webpage</title>
+  <title>TOP: HTML Foundations Assignments</title>
 </head>
 <body>
   <h1>Hello World!</h1>
@@ -28,7 +28,7 @@
   </p>
   <!-- strong tag -->
   <p>
-    <code>&lt;strong&gt;</code> is for imortant text, and is displayed in bold
+    <code>&lt;strong&gt;</code> is for important text, and is displayed in bold
   </p>
   <p><strong>Delectus, dicta illo ad maxime quasi cupiditate.</strong></p>
   <!-- em tag -->
@@ -39,6 +39,7 @@
   <!-- i tag -->
   <p>
     <code>&lt;i&gt;</code> "The i element represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts."
+    <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element" target="_blank" rel="noopener noreferrer"><sup>1</sup></a>
   </p>
   <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit.</em> Dignissimos dolore recusandae hic alias laboriosam reiciendis, repellat ea deserunt accusamus quibusdam temporibus, voluptatum inventore sequi iste adipisci vero eveniet distinctio ut.</p>
   <!-- b tag -->
@@ -49,9 +50,9 @@
 
   <h2>Lists</h2>
   <p>
-    <code>&lt;ul&gt;</code> creates unordered lists, by default beginign with bullet points.<br>
-    <code>&lt;ol&gt;</code> created ordered list, and are numbered.<br>
-    <code>&lt;li&gt;</code> is the tag used to denote each list item, and should be nested within ordered, or unordered, list tags.
+    <code>&lt;ul&gt;</code> creates unordered lists, by default the entries begin with bullet points.<br>
+    <code>&lt;ol&gt;</code> creates an ordered list, and are numbered.<br>
+    <code>&lt;li&gt;</code> is the tag used to denote each list item, and should be nested within ordered and unordered list tags.
   </p>
   <p>An unordered shopping list of your favorite foods.</p>
   <ul>
@@ -65,7 +66,7 @@
     <li>sausage</li>
     <li>
       <audio controls style="height: 1em;">
-        <source src="../trash/hamburger-sound-effect.mp3" type="audio/mpeg"> 
+        <source src="./audio/hamburger-sound-effect.mp3" type="audio/mpeg"> 
         Your Browser does not support the audio tag.
       </audio>
     </li>
@@ -75,9 +76,9 @@
     <li>Smart Get: The Odin Project</li>
     <li>Learn Japan's Knees</li>
     <li>Do a pick up and drop off.</li>
-    <li><img src="../trash/wankage.gif" alt="wankage emote" style="height: 1.5em;"></li>
+    <li><img src="./images/wankage.gif" alt="wankage emote" style="height: 1.5em;"></li>
   </ol>
-  <p>An unordere list of the places you would like to visit someday.</p>
+  <p>An unordered list of the places you would like to visit someday.</p>
   <ul>
     <li>My bed</li>
     <li lang="jp">京都 / 東京、日本</li>
@@ -88,11 +89,26 @@
     <li>Pocket Monster 🅱️ideo Game Series</li>
     <li>Baldur's Gate 3</li>
     <li>Megaman Battle Network Series</li>
-    <li><img src="../trash/amogus-dance.gif" alt="Amogus" style="height: 1.5em;"></li>
+    <li><img src="./images/amogus-dance.gif" alt="Amogus" title="Amogus" style="height: 1.5em;"></li>
     <li><del>Todd Howard</del></li>
   </ol>
 
   <h2>Links and Images</h2>
+  <h3>Links</h3>
+  <p>Behold, an example of an absolute link!</p>
+  <a href="https://theodinproject.com/about" target="_blank" >About the Odin Project</a>
+  <p>It goes somewhere else. Very spooky.</p>
+  <p>And now, a relative link! Very local. Considerably less scary.</p>
+  <a href="./pages/about.html">About</a>
+  <p>
+    Adding the <code>./</code> to the start of a relative link is new for me. I don't think I've ever had an issue, but I suppose it can't hurt to start.
+  </p>
+  <h3>Images</h3>
+  <p>Here is an image from the Odin Project site.</p>
+  <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo"  height="310" width="310">
+  <p>I know what you're all here for, however; a special photo of a lil' guy.</p>
+  <img src="./images/dog.jpg" alt="A black pug wearing a scarf." width="310">
+  <p>Apparently his name is Charles.</p>
 
 </body>
 </html>
