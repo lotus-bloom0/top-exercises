@@ -16,4 +16,5 @@ The following lession's assignments are merged into one document, "index.html"
 - Working with Text
 - Lists
 - Links and Images
+- Commit Messages
 
