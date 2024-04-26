@@ -23,5 +23,5 @@ Lesson "Project: Recipes" is located at my [odin-recipes repository](https://git
 ### [CSS Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations/#css-foundations)
 The following assignments are located in the directory "css-exercises," which was downloaded from [The Odin Project's CSS Exercises repository](https://github.com/TheOdinProject/css-exercises).
 - Intro to CSS
-  - foundations/01-css-methods
-
+  - foundations/01-05
+- 
