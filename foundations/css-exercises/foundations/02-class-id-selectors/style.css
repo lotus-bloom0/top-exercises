@@ -1,0 +1,16 @@
+#ni {
+  color: #00f;
+  font-size: 36px;
+}
+.odd {
+  background-color: rgb(255, 100, 100);
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+.odd.san {
+  font-size: 24px;
+}
+#yon {
+  background-color: #00ff0080;
+  font-size: 24px;
+  font-weight: bold;
+}
