@@ -8,7 +8,7 @@ Below is an index for where to locate each assignment and project. The header hy
 
 ## [Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations)
 
-Introduction, Prerequisites, and Git Basics did not have assignments that required the creation of documents.
+If a section or lesson is not listed then completion did not require the creation, or editing, of documents.
 
 ### [HTML Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations#html-foundations)
 
@@ -31,3 +31,6 @@ The following assignments are located in the directory "css-exercises," which wa
 - The Cascade
   - foundations/06
   - Added simple CSS to [Project: Recipes](https://github.com/lotus-bloom0/odin-recipes)
+- Block and Inline
+  - foundations/margin-and-padding
+  - Additionally simple style was added to the HTML Foundations Project: Recipes.
